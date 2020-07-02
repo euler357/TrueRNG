@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat $1 | rngtest &> "$1.rngtest.txt"
+
