@@ -36,7 +36,7 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
 
 OR
 
-`truerng_test.py`
+`truerng_test.py` (if .py is associated with python3)
 
 This app should detect the device, run tests, and display results both in text and a graph of the performance.
 
