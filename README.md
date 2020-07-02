@@ -34,6 +34,8 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
 * py truerng_test.py OR
 * truerng_test.py
 
+This app should detect the device, run tests, and display results both in text and a graph of the performance.
+
 Linux Instructions (Ubuntu / Debian-based)
 ------------------------------------------
 
@@ -50,3 +52,5 @@ Linux Instructions (Ubuntu / Debian-based)
 * ./truerng_test.py (if your file permissions will allow execution)
  
 This app should detect the device, run tests, and display results both in text and a graph of the performance.
+
+More Python Tools and info at:  https://cockrum.net
