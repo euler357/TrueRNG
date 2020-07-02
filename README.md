@@ -4,15 +4,15 @@ Scrips and Utilities for the TrueRNG and TrueRNGpro Random Number Generators
 
 Tools (Windows and Linux)
 -------------------------
-* truerng_find.py 			Scans COM ports and identifies all connected TrueRNG devices
-* truerng_mode.py 			Example of how to change modes on TrueRNGpro and TrueRNGproV2 devices
-* truerng_read_example.py 	Example of how to read from a TrueRNG device
-* truerng_test.py 			Finds and performs testing on connected TrueRNG devices
+* **truerng_find.py**:	Scans COM ports and identifies all connected TrueRNG devices
+* **truerng_mode.py**: Example of how to change modes on TrueRNGpro and TrueRNGproV2 devices
+* **truerng_read_example.py**: Example of how to read from a TrueRNG device
+* **truerng_test.py**: Finds and performs testing on connected TrueRNG devices
 
 Tools (Linux Only)
 ------------------
-* truerng_fulltest.py 		Reads a large block of data (14GB) and runs ent, rngtest, and dieharder (takes ~9 hours)
-* run_rngtest					Linux script to run
+* **truerng_fulltest.py**:	Reads a large block of data (14GB) and runs ent, rngtest, and dieharder (takes ~9 hours)
+* **run_rngtest**:					Linux script to run rngtest since it doensn't like to be called directly from Python 
 
 Windows INSTRUCTIONS
 --------------------
