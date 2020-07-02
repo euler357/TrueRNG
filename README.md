@@ -11,7 +11,7 @@ Tools (Windows and Linux)
 
 Tools (Linux Only)
 ------------------
-* **truerng_fulltest.py**:	Reads a large block of data (14GB) and runs ent, rngtest, and dieharder (takes ~9 hours)
+* **truerng_fulltest.py**:	Reads a large block of data (14GB) and runs ent, rngtest, and dieharder (takes ~9 hours on the TrueRNGpro / TrueRNGproV2)
 * **run_rngtest**:					Linux script to run rngtest since it doensn't like to be called directly from Python - this is a "helper" for truerng_fulltest.py and isn't meant to be used directly
 
 Windows INSTRUCTIONS
