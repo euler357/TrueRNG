@@ -64,7 +64,7 @@ TrueRNGv1/v2/v3
 ![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Test.jpg)
 ![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Graph.jpg)
 
-TrueRNGproV1
+TrueRNGpro
 ---------------
 
 ![TrueRNGproV1_Test](https://cockrum.net/images/TrueRNGproV1_Test.jpg)
