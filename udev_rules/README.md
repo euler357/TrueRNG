@@ -13,3 +13,5 @@ Your TrueRNG devices should now show up as:
 * /dev/TrueRNG0
 * /dev/TrueRNG1
 * etc. 
+
+More Python Tools and info at:  https://cockrum.net
