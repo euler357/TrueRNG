@@ -54,3 +54,25 @@ Linux Instructions (Ubuntu / Debian-based)
 This app should detect the device, run tests, and display results both in text and a graph of the performance.
 
 More Python Tools and info at:  https://cockrum.net
+
+What the Results of truerng_test.py should look like
+====================================================
+
+TrueRNGv1/v2/v3
+---------------
+
+![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Test.jpg)
+![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Graph.jpg)
+
+TrueRNGproV1
+---------------
+
+![TrueRNGproV1_Test](https://cockrum.net/images/TrueRNGproV1_Test.jpg)
+![TrueRNGproV1_Test](https://cockrum.net/images/TrueRNGproV1_Graph.jpg)
+
+TrueRNGproV2
+---------------
+
+![TrueRNGproV2_Test](https://cockrum.net/images/TrueRNGproV2_Test.jpg)
+![TrueRNGproV2_Graph](https://cockrum.net/images/TrueRNGproV2_Graph.jpg)
+
