@@ -1,7 +1,9 @@
-# truerng
+TrueRNG Utilities
+=================
+
 Scrips and Utilities for the TrueRNG and TrueRNGpro Random Number Generators
 
-Windows INSTRUCTIONS
+# Windows INSTRUCTIONS
 
 1) Install Python 64-bit for Windows from:
 https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
@@ -10,18 +12,19 @@ https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe
 
 3) Open a command prompt (run the cmd command in Windows)
 
-4) Change to the directory you created above
-run: install_python_libs.bat
+4) Change to the directory you created above and run: 
+
+  install_python_libs.bat
 
 5) Plug in a single TrueRNG V1, V2, V3, Pro, or ProV2
 
 6) Run the python TrueRNG test app
 
-py truerng_test.py
-or
-truerng_test.py
+    py truerng_test.py
+          or
+    truerng_test.py
 
-Linux Instructions (Ubuntu / Debian-based)
+# Linux Instructions (Ubuntu / Debian-based)
 
 1) Install Python3
 sudo apt install python3
