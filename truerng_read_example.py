@@ -13,6 +13,7 @@
 
 import serial
 import time
+import os
 from serial.tools import list_ports
 
 # Size of block for each loop

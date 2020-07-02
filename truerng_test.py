@@ -205,7 +205,7 @@ def normal_mode_test(comport):
         print('*** Read Failed!!!')
 
     samples=x
-
+    lengthRead=len(x)
 
     if output_file==1:
         # If we were able to open the file, write to disk
@@ -217,7 +217,7 @@ def normal_mode_test(comport):
             fp.close()
 
     # Calculate the rate
-    rate=float(Normal_Test_Size) / ((after-before)*1000000.0) *8
+    rate=float(lengthRead) / ((after-before)*1000000.0) *8
 
     # Check to see if the rate is fast enough
     if rate >= 1.0:
@@ -246,7 +246,7 @@ def normal_mode_test(comport):
     # Calculate shannon entropy
     ent = 0.0
     for b in range(256):
-        freqList[b]=freqList[b]/Normal_Test_Size
+        freqList[b]=freqList[b]/lengthRead
         if freqList[b] > 0:
             ent = ent + freqList[b] * math.log(freqList[b], 2)
 
