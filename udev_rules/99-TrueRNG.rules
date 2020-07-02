@@ -1,0 +1,16 @@
+# Rule for TrueRNG V1/V2/V3
+SUBSYSTEM=="tty", ATTRS{product}=="TrueRNG", SYMLINK+="TrueRNG%n", RUN+="/bin/stty raw -echo -ixoff -F /dev/%k speed 3000000"
+ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="f5fe", ENV{ID_MM_DEVICE_IGNORE}="1", MODE="0666"
+
+# Rule for TrueRNGpro
+SUBSYSTEM=="tty", ATTRS{product}=="TrueRNGpro", SYMLINK+="TrueRNG%n", RUN+="/bin/stty raw -echo -ixoff -F /dev/%k speed 3000000"
+ATTRS{idVendor}=="16d0", ATTRS{idProduct}=="0aa0", ENV{ID_MM_DEVICE_IGNORE}="1", MODE="0666"
+
+# Rule for TrueRNGpro V2
+SUBSYSTEM=="tty", ATTRS{product}=="TrueRNGpro V2", SYMLINK+="TrueRNG%n", RUN+="/bin/stty raw -echo -ixoff -F /dev/%k speed 3000000"
+ATTRS{idVendor}=="04d8", ATTRS{idProduct}=="ebb5", ENV{ID_MM_DEVICE_IGNORE}="1", MODE="0666"
+
+
+
+
+
