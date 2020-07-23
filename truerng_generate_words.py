@@ -4,12 +4,12 @@
 # Chris K Cockrum
 # 7/23/20
 #
-# Requires Python 3.8, pyserial
+# Requires Python 3.8, pyserial, nltk
 #
 # On Linux - may need to be root or set /dev/tty port permissions to 666
 #
 # Python 3.8.xx is available here: https://www.python.org/downloads/
-# Install Pyserial package with:   python -m pip install pyserial
+# Install package with:   python -m pip install pyserial nltk
 
 import serial
 import os
