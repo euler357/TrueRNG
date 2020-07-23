@@ -88,3 +88,9 @@ TrueRNGproV2 (Not yet released - undergoing testing)
 ![TrueRNGproV2_Test](https://cockrum.net/images/TrueRNGproV2_Test.jpg)
 ![TrueRNGproV2_Graph](https://cockrum.net/images/TrueRNGproV2_Graph.jpg)
 
+Output of truerng_generate_password.py and truerng_generate_words.py
+====================================================================
+![truerng_generate_password.py Output](https://cockrum.net/images/TrueRNG_password_example.png)
+![truerng_generate_password.py Output](https://cockrum.net/images/TrueRNG_wordlist_example.png)
+
+
