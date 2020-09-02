@@ -69,16 +69,16 @@ TrueRNGproV2_Min_Entropy = 7.9995            # bits/byte
 TrueRNGproV2_Max_Pi_Error = .5               # Maximum PI Error
 TrueRNGproV2_Max_Mean_Error = .5             # Maximum Mean Error
 TrueRNGproV2_Normal_Test_Size = 1*1024*1024  # 1Mbyte of data
-TrueRNGproV2_Min_PS_Voltage = 14500          # Millivolts
-TrueRNGproV2_Max_PS_Voltage = 16500          # Millivolts
-TrueRNGproV2_Mean_Min = 500
-TrueRNGproV2_Mean_Max = 600
+TrueRNGproV2_Min_PS_Voltage = 15000          # Millivolts
+TrueRNGproV2_Max_PS_Voltage = 17000          # Millivolts
+TrueRNGproV2_Mean_Min = 512-128
+TrueRNGproV2_Mean_Max = 512+128
 TrueRNGproV2_Std_Min = 50
-TrueRNGproV2_Std_Max = 200
-TrueRNGproV2_W_Mean_Min = 226
-TrueRNGproV2_W_Mean_Max = 286
+TrueRNGproV2_Std_Max = 150
+TrueRNGproV2_W_Mean_Min = 256-32
+TrueRNGproV2_W_Mean_Max = 256+32
 TrueRNGproV2_W_Std_Min = 20
-TrueRNGproV2_W_Std_Max = 80
+TrueRNGproV2_W_Std_Max = 90
 
 # Create output file
 output_file = False
