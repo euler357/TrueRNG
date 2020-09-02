@@ -22,7 +22,7 @@ import os
 from serial.tools import list_ports
 
 # Set Default Operating Mode to Normal
-OPERATING_MODE='MODE_PSDEBUG'
+OPERATING_MODE='MODE_RNGDEBUG'
 
 # Set block size to read to get sample
 sample_block_size=100 * 1024
@@ -40,6 +40,7 @@ sample_block_size=100 * 1024
 # MODE_RAW_ASC      38400     /* Raw ADC Samples in Ascii Mode */
 # MODE_UNWHITENED  57600      /* Unwhitened RNG1-RNG2 (TrueRNGproV2 Only) */
 # MODE_NORMAL_ASC   115200    /* Normal in Ascii Mode (TrueRNGproV2 Only) */
+# MODE_NORMAL_ASC_SLOW 230400    /* Normal in Ascii Mode - Slow for small devices (TrueRNGproV2 Only) */
 def modeChange(MODE, PORT):
     mode_match=0
 
@@ -85,6 +86,9 @@ def modeChange(MODE, PORT):
     if MODE=='MODE_NORMAL_ASC':
         ser = serial.Serial(port=PORT,baudrate=115200,timeout=1)
         print('Switched to ' + MODE)
+        mode_match=1
+    if MODE=='MODE_NORMAL_ASC_SLOW':
+        ser = serial.Serial(port=PORT,baudrate=230400,timeout=1)
         mode_match=1
     ser.close()
     if mode_match==0:

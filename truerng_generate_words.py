@@ -38,8 +38,9 @@ capture_mode = 'MODE_NORMAL'
 # MODE_RNG2WHITE    9600      /* RNG2 + Mersenns Twister*/
 # MODE_RAW_BIN      19200     /* Raw ADC Samples in Binary Mode */
 # MODE_RAW_ASC      38400     /* Raw ADC Samples in Ascii Mode */
-# MODE_UNWHITENED  57600      /* Unwhitened RNG1-RNG2 (TrueRNGproV2 Only) */
+# MODE_UNWHITENED   57600     /* Unwhitened RNG1-RNG2 (TrueRNGproV2 Only) */
 # MODE_NORMAL_ASC   115200    /* Normal in Ascii Mode (TrueRNGproV2 Only) */
+# MODE_NORMAL_ASC_SLOW 230400    /* Normal in Ascii Mode - Slow for small devices (TrueRNGproV2 Only) */
 def modeChange(MODE, PORT):
     # "Knock" Sequence to activate mode change
     ser = serial.Serial(port=PORT,baudrate=110,timeout=1)
@@ -67,6 +68,8 @@ def modeChange(MODE, PORT):
         ser = serial.Serial(port=PORT,baudrate=57600,timeout=1)
     if MODE=='MODE_NORMAL_ASC':
         ser = serial.Serial(port=PORT,baudrate=115200,timeout=1)
+    if MODE=='MODE_NORMAL_ASC_SLOW':
+        ser = serial.Serial(port=PORT,baudrate=230400,timeout=1)
     ser.close()
 
 # Print Header
