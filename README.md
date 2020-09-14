@@ -2,6 +2,9 @@ TrueRNG Utilities
 =================
 Scrips and Utilities for the TrueRNG and TrueRNGpro Random Number Generators
 
+Devices and information available at: https://ubld.it/products/
+---------------------------------------------------------------
+
 Tools (Windows and Linux)
 -------------------------
 * **truerng_find.py**:	Scans COM ports and identifies all connected TrueRNG devices
