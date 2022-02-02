@@ -79,13 +79,13 @@ TrueRNGv1/v2/v3
 ![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Test.jpg)
 ![TrueRNGv3_Test](https://cockrum.net/images/TrueRNGv3_Graph.jpg)
 
-TrueRNGpro
+TrueRNGpro (replaced by TrueRNGproV2)
 ---------------
 
 ![TrueRNGproV1_Test](https://cockrum.net/images/TrueRNGproV1_Test.jpg)
 ![TrueRNGproV1_Test](https://cockrum.net/images/TrueRNGproV1_Graph.jpg)
 
-TrueRNGproV2 (Not yet released - undergoing testing)
+TrueRNGproV2 (Current Amazon sales of the TrueRNGpro are shipping this unit)
 ---------------
 
 ![TrueRNGproV2_Test](https://cockrum.net/images/TrueRNGproV2_Test.jpg)
