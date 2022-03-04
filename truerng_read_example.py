@@ -23,6 +23,8 @@ blocksize=102400
 numloops=10
 
 # Set com port to default None
+# Set this to the exact port name if you want to choose a specific port
+# like this: rng_com_port = 'COM6'
 rng_com_port = None
 
 # Set mode (only has effect on TrueRNGpro and TrueRNGproV2)
