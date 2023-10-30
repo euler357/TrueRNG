@@ -1,6 +1,6 @@
 TrueRNG Utilities
 =================
-Scrips and Utilities for the TrueRNG and TrueRNGpro Random Number Generators
+Scripts and Utilities for the TrueRNG and TrueRNGpro Random Number Generators
 
 Devices and information available at: https://ubld.it/products/
 ---------------------------------------------------------------
